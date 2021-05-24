@@ -1,6 +1,5 @@
 from flask import Flask, jsonify, request, render_template
 import pandas as pd
-import sklearn as sklearn 
 from preprocessor import preprocess #prepares data for model prediction
 from predictor import predict #handles prediction
 
